@@ -1,0 +1,9 @@
+【条件说明】
+1.PD端 usb调试已经打开（launch->设置->高级设置->usb调试）
+2.IP地址与PC端的IP配置在同一网段（WIFI或网线）；
+3.将待安装apk归档到本目录（支持安装多个apk；若只须安装一个apk，请只放该apk，或者指定”0.MultiAPK_Install.bat“的apk名称）。
+【配置说明】
+使用记事本或其它文本编辑器，打开”0.MultiAPK_Install.bat“,修改adb connect 目标IP地址信息（如adb connect 192.168.0.127）
+
+【一键安装】
+执行0.MultiAPK_Install.bat，等待执行完成。
